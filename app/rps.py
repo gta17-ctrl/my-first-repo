@@ -26,6 +26,8 @@ print("COMPT:", computer_choice)
 u = user_choice
 c = computer_choice
 
+
+def determine_winner(u, c):
 if u == "rock" and c == "rock":
     print("TIE GAME")
 elif u == "rock" and c == "paper":
@@ -44,4 +46,7 @@ elif u == "scissors" and c == "paper":
     print("USER WINS")
 elif u == "scissors" and c == "scissors":
     print("TIE GAME")
-    
+
+result = determine_winner(user_choice,computer_choice)
+print(result)
+# assert _______ == _________

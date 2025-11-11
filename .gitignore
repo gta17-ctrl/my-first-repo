@@ -1,0 +1,8 @@
+# we can mention names in repo you want to ignore
+
+#clutter files
+__pycache__
+.pytest_cache
+#hidden file on mac:
+.DS_Store
+
